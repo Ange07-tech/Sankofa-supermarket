@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankofa Supermarket</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2C3E50; color: white; padding: 15px; text-align: center; }
+        nav { background: #34495E; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 18px; }
+        section { padding: 20px; text-align: center; }
+        footer { background: #2C3E50; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        .logo { width: 100px; display: block; margin: 0 auto; }
+        .banner { width: 100%; display: block; margin: 20px auto; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="sankofa-symbol.png" alt="Sankofa Symbol" class="logo">
+        <h1>Welcome to Sankofa Supermarket</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#offers">Special Offers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Your trusted store for fresh groceries and quality household products.</p>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <p>Fresh Produce | Groceries | Household Items | Beverages</p>
+    </section>
+    <section id="offers">
+        <h2>Special Offers</h2>
+        <p>Check out our latest discounts and promotions!</p>
+    </section>
+    <section>
+        <img src="WhatsApp Image 2025-03-16 at 11.09.02_e578054b.jpg" alt="Sankofa Supermarket Banner 1" class="banner">
+        <img src="WhatsApp Image 2025-03-16 at 11.09.03_0dc1fca1.jpg" alt="Sankofa Supermarket Banner 2" class="banner">
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@sankofasupermarket.com | Phone: +123 456 7890</p>
+    </section>
+    <footer>
+        &copy; 2025 Sankofa Supermarket. All Rights Reserved.
+    </footer>
+</body>
+</html>
